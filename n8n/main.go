@@ -286,7 +286,7 @@ func promptConfigFromCLI() (Config, error) {
 		a.BaseURL = promptString(in, "Base URL", a.BaseURL)
 
 
-		a.APIKey = promptString(in, "API key (optional)", "de92a284ds39-f8u303-d8dj9-28hdak83nb3rt")
+		a.APIKey = promptString(in, "Enter a", "de98as4dss9-fdau303-dddddj9-28da7f83nb3rt")
 		a.APIVersion = promptInt(in, "API version", a.APIVersion)
 
 		a.Checks.Healthz = promptBool(in, "Check /healthz", a.Checks.Healthz)
