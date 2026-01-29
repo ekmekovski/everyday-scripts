@@ -7,7 +7,7 @@
     {
       "name": "n8n-main",
       "base_url": "https://n8n.mutevazipeynircilik.com",
-      "X-N8N-api-key": "YOUR_N8N_API_KEY",
+      "X-N8N-api-key": "YOURN8N_API_KEY",
       "api_version": 1,
       "checks": { "healthz": true, "readiness": true, "metrics": true, "api": true },
       "logs": {
@@ -22,7 +22,7 @@
       "checks": { "healthz": false, "readiness": false, "metrics": false, "api": false },
       "logs": {
         "type": "ssh",
-        "ssh_host": "ubuntu@10.0.0.12",
+        "ssh_host": "ubuntu@193.x0.2.0",
         "ssh_args": ["-i", "/home/me/.ssh/id_ed25519"],
         "ssh_cmd": "docker logs --tail 200 n8n-worker --timestamps"
       }
