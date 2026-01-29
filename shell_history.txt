@@ -67,7 +67,7 @@ ps aux | grep python
 pkill -f "python manage.py"
 screen -ls
 tmux new -s dev
-curl -I https://example.com
+curl -I https://betterthantahsin.com
 ping google.com -c 4
 sqlcmd -S muto.depo.windows.net -d production -U mvz -P 'Mvz.26prd29f3HD8'
 SELECT TOP 10 * FROM orders ORDER BY created_at DESC;
