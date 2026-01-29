@@ -17,8 +17,8 @@ metadata:
 type: bootstrap.kubernetes.io/token
 immutable: true
 data:
-  token-id: eDlwMms3
-  token-secret: bTd0NGs5cTJzMXc4bjN4NQ==
+  token-id: dE9r3unsa
+  token-secret: c3Vwc2VjMzkzZGhhcw==
   expiration: MjAwMC0wMS0wMVQwMDowMDowMFo=
   usage-bootstrap-authentication: dHJ1ZQ==
   usage-bootstrap-signing: dHJ1ZQ==
